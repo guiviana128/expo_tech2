@@ -1,0 +1,176 @@
+/* FormRefeicao.css */
+
+.form-refeicao {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  animation: slideIn 0.5s ease-in;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.form-refeicao h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 1.8em;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1em;
+  font-family: inherit;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.form-refeicao button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.05em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+  margin-bottom: 2rem;
+}
+
+.form-refeicao button:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
+
+.form-refeicao button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.mensagem {
+  padding: 12px;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  font-weight: 500;
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.mensagem {
+  background: #e8f5e9;
+  color: #2e7d32;
+  border-left: 4px solid #4caf50;
+}
+
+/* Tabela de Alimentos */
+.alimentos-info {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: #f5f7fa;
+  border-radius: 8px;
+}
+
+.alimentos-info h3 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.alimentos-info table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.alimentos-info th,
+.alimentos-info td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.alimentos-info th {
+  background: #667eea;
+  color: white;
+  font-weight: bold;
+}
+
+.alimentos-info tr:hover {
+  background: #e8e8ff;
+}
+
+.alimentos-info tr.saudavel {
+  background: #f1f8e9;
+}
+
+.alimentos-info tr.nao-saudavel {
+  background: #ffebee;
+}
+
+.alimentos-info td:last-child {
+  font-weight: bold;
+  color: #667eea;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .form-refeicao {
+    padding: 1.5rem;
+    max-width: 100%;
+  }
+
+  .alimentos-info table {
+    font-size: 0.9em;
+  }
+
+  .alimentos-info th,
+  .alimentos-info td {
+    padding: 8px;
+  }
+}

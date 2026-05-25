@@ -1,0 +1,206 @@
+/* Ranking.css */
+
+.ranking {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.ranking h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5em;
+  color: #333;
+}
+
+.ranking.erro {
+  color: #c00;
+  padding: 20px;
+  background: #fee;
+  border-radius: 8px;
+}
+
+/* Filtro */
+.filtro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.filtro label {
+  font-weight: 500;
+  color: #555;
+}
+
+.filtro select {
+  padding: 8px 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+.filtro select:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+/* Ranking Container */
+.ranking-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.ranking-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  border-left: 6px solid;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.ranking-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.ranking-card.top-3 {
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(255, 215, 0, 0.05) 100%);
+}
+
+.posicao-insignia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 70px;
+}
+
+.insignia {
+  font-size: 2.5em;
+}
+
+.posicao {
+  font-weight: bold;
+  color: #999;
+  font-size: 0.9em;
+}
+
+.usuario-info {
+  flex: 1;
+}
+
+.usuario-info h3 {
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-size: 1.2em;
+}
+
+.nivel-info {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.nivel {
+  background: #f0f0f0;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.85em;
+  color: #666;
+}
+
+.xp-info {
+  text-align: right;
+}
+
+.xp-total {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #667eea;
+  margin: 0;
+}
+
+/* Info Box */
+.info-box {
+  background: linear-gradient(135deg, #e3f2fd 0%, #f3e5f5 100%);
+  padding: 2rem;
+  border-radius: 12px;
+  border-left: 6px solid #667eea;
+}
+
+.info-box h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.info-box ul {
+  list-style: none;
+}
+
+.info-box li {
+  padding: 0.7rem 0;
+  color: #555;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.info-box li:last-child {
+  border-bottom: none;
+}
+
+.info-box strong {
+  color: #667eea;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .ranking h1 {
+    font-size: 1.8em;
+  }
+
+  .ranking-container {
+    grid-template-columns: 1fr;
+  }
+
+  .ranking-card {
+    flex-wrap: wrap;
+  }
+
+  .usuario-info {
+    flex: 1 100%;
+  }
+
+  .filtro {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .filtro label {
+    width: 100%;
+  }
+
+  .filtro select {
+    width: 100%;
+  }
+}
