@@ -68,34 +68,35 @@ Suporte a transações ACID
 Gratuito e open-source
 Escalável para aplicações médias
 
+
 🏗️ Arquitetura do Sistema
 ------------------------------------
-┌─────────────────────────────────────┐
-│            FRONTEND (React)         │
-│-------------------------------------│
-│ • Dashboard de XP                   │
-│ • Cadastro de refeições             │
-│ • Cadastro de exercícios            │
-│ • Ranking de usuários               │
-└────────────────┬────────────────────┘
+
+            FRONTEND (React)         
+-------------------------------------
+ • Dashboard de XP                   
+ • Cadastro de refeições             
+ • Cadastro de exercícios            
+• Ranking de usuários              
+
                  │ HTTP / REST API
-┌────────────────▼────────────────────┐
-│         BACKEND (Python/Flask)      │
-│-------------------------------------│
-│ • API REST                          │
-│ • Regras de negócio                 │
-│ • Cálculo de XP                     │
-│ • Autenticação JWT                  │
-└────────────────┬────────────────────┘
+
+         BACKEND (Python/Flask)      
+-------------------------------------
+ • API REST                          
+ • Regras de negócio                 
+ • Cálculo de XP                     
+• Autenticação JWT                  
+
                  │ SQL
-┌────────────────▼────────────────────┐
-│           BANCO DE DADOS            │
-│-------------------------------------│
-│ • Usuários                          │
-│ • Refeições                         │
-│ • Exercícios                        │
-│ • Histórico de XP                   │
-└─────────────────────────────────────┘
+              
+           BANCO DE DADOS           
+-------------------------------------
+ • Usuários                          
+ • Refeições                         
+ • Exercícios                        
+ • Histórico de XP                   
+
 
 
 
