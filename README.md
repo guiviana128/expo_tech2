@@ -11,6 +11,8 @@ Estimular prática de exercícios físicos
 Criar engajamento através de níveis e XP
 Permitir acompanhamento de evolução
 Promover competição saudável com ranking
+
+
 ⚙️ Funcionalidades
 
 👤 Usuários
@@ -18,6 +20,7 @@ Cadastro e autenticação
 Sistema de níveis
 Acúmulo de XP
 Histórico de progresso
+
 
 🍎 Refeições
 Registro de refeições
