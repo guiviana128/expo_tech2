@@ -104,6 +104,9 @@ Escalável para aplicações médias
 
 -------------------------------------
 📁 Estrutura do Projeto
+
+
+
 projeto_expo/
 │
 ├── backend/
