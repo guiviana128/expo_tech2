@@ -144,8 +144,9 @@ pip install -r requirements.txt
 Executar servidor
 python app.py
 
-Servidor disponível em:
 
+
+Servidor disponível em:
 http://localhost:5000
 🎨 Frontend (React)
 Instalar dependências
@@ -154,12 +155,15 @@ npm install
 Executar aplicação
 npm start
 
-Aplicação disponível em:
 
+
+Aplicação disponível em:
 http://localhost:3000
 🗄️ Banco de Dados (MySQL)
 Criar banco e importar estrutura
 mysql -u root -p < database/schema.sql
+
+
 📡 API Endpoints
 👤 Usuários
 Método	Endpoint	Descrição
@@ -212,6 +216,9 @@ Python	3.x
 MySQL	8.x
 Axios	1.x
 SQLAlchemy	2.x
+
+
+
 📈 Possíveis Melhorias Futuras
 Upload de fotos das refeições
 Integração com smartwatch
@@ -221,8 +228,12 @@ Notificações em tempo real
 Dashboard avançado com gráficos
 👨‍💻 Desenvolvedor
 
-Projeto desenvolvido com foco em aprendizado de:
 
+
+
+
+
+Projeto desenvolvido com foco em aprendizado de:
 Desenvolvimento Full Stack
 APIs REST
 Banco de Dados Relacional
