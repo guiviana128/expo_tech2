@@ -107,27 +107,67 @@ Escalável para aplicações médias
 projeto_expo/
 │
 ├── backend/
-│   ├── app.py
-│   ├── config.py
-│   ├── models.py
-│   ├── routes.py
+│   ├── app/
+│   │   ├── controllers/
+│   │   │   └── user_controller.py
+│   │   │
+│   │   ├── models/
+│   │   │   └── user_model.py
+│   │   │
+│   │   ├── routes/
+│   │   │   └── user_routes.py
+│   │   │
+│   │   ├── services/
+│   │   │   └── user_service.py
+│   │   │
+│   │   ├── database/
+│   │   │   └── connection.py
+│   │   │
+│   │   ├── config/
+│   │   │   └── config.py
+│   │   │
+│   │   └── app.py
+│   │
 │   ├── requirements.txt
-│   └── services/
+│   └── .env
 │
 ├── frontend/
 │   ├── public/
+│   │
 │   ├── src/
+│   │   ├── assets/
+│   │   │
 │   │   ├── components/
+│   │   │
 │   │   ├── pages/
+│   │   │
 │   │   ├── services/
+│   │   │   └── api.js
+│   │   │
 │   │   ├── styles/
-│   │   └── App.js
-│   └── package.json
+│   │   │
+│   │   ├── routes/
+│   │   │
+│   │   ├── hooks/
+│   │   │
+│   │   ├── context/
+│   │   │
+│   │   ├── App.js
+│   │   └── main.js
+│   │
+│   ├── package.json
+│   └── vite.config.js
 │
 ├── database/
-│   └── schema.sql
+│   ├── schema.sql
+│   └── seed.sql
 │
-└── README.md
+├── docs/
+│   └── api-docs.md
+│
+├── .gitignore
+├── README.md
+└── docker-compose.yml
 
 ----------------------------
 🚀 Como Executar o Projeto
