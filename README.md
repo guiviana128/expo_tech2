@@ -12,24 +12,29 @@ Criar engajamento através de níveis e XP
 Permitir acompanhamento de evolução
 Promover competição saudável com ranking
 ⚙️ Funcionalidades
+
 👤 Usuários
 Cadastro e autenticação
 Sistema de níveis
 Acúmulo de XP
 Histórico de progresso
+
 🍎 Refeições
 Registro de refeições
 Classificação de alimentos
 Ganho de XP baseado na qualidade alimentar
+
 🏃 Exercícios
 Registro de atividades físicas
 Cálculo de XP por duração/intensidade
 Histórico de exercícios
+
 🏆 Gamificação
 Sistema de XP
 Progressão de níveis
 Bônus de consistência
 Ranking global de usuários
+
 💻 Stack Tecnológica
 Frontend — React.js
 Por que React?
@@ -62,6 +67,7 @@ Banco relacional robusto
 Suporte a transações ACID
 Gratuito e open-source
 Escalável para aplicações médias
+
 🏗️ Arquitetura do Sistema
 ------------------------------------
 ┌─────────────────────────────────────┐
