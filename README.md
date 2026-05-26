@@ -63,6 +63,7 @@ Suporte a transações ACID
 Gratuito e open-source
 Escalável para aplicações médias
 🏗️ Arquitetura do Sistema
+------------------------------------
 ┌─────────────────────────────────────┐
 │            FRONTEND (React)         │
 │-------------------------------------│
@@ -89,6 +90,12 @@ Escalável para aplicações médias
 │ • Exercícios                        │
 │ • Histórico de XP                   │
 └─────────────────────────────────────┘
+
+
+
+
+
+-------------------------------------
 📁 Estrutura do Projeto
 projeto_expo/
 │
@@ -114,6 +121,8 @@ projeto_expo/
 │   └── schema.sql
 │
 └── README.md
+
+----------------------------
 🚀 Como Executar o Projeto
 1️⃣ Clonar o Repositório
 git clone https://github.com/seu-usuario/nutrixp.git
