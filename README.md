@@ -107,30 +107,30 @@ Escalável para aplicações médias
 
 
 
-projeto_expo
+projeto_expo/
+ │
+  ├── backend/
+   │   ├── app.py
+      │   ├── config.py
+     │   ├── models.py
+    │   ├── routes.py
+    │   ├── requirements.txt
+   │   └── services/
+   │
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   ├── styles/
+│   │   └── App.js
+│   └── package.json
 │
- backend
-    app.py
-    config.py
-    models.py
-    routes.py
-     requirements.txt
-     services
-
-├   frontend
-    public
-    src
-      components
-│    pages
-      services
-      styles
-      App.js
-    package.json
-
-├  database/
-    schema.sql
-
-   README.md
+├── database/
+│   └── schema.sql
+│
+└── README.md
 
 ----------------------------
 🚀 Como Executar o Projeto
