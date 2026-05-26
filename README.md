@@ -130,44 +130,44 @@ projeto_expo/
 │   │
 │   ├── requirements.txt
 │   └── .env
-│
-├── frontend/
-│   ├── public/
-│   │
-│   ├── src/
-│   │   ├── assets/
-│   │   │
-│   │   ├── components/
-│   │   │
-│   │   ├── pages/
-│   │   │
-│   │   ├── services/
-│   │   │   └── api.js
-│   │   │
-│   │   ├── styles/
-│   │   │
-│   │   ├── routes/
-│   │   │
-│   │   ├── hooks/
-│   │   │
-│   │   ├── context/
-│   │   │
-│   │   ├── App.js
-│   │   └── main.js
-│   │
-│   ├── package.json
-│   └── vite.config.js
-│
+
+── frontend/
+  ├── public/
+     │
+     ├── src/
+        ├── assets/
+        │
+        ├── components/
+        │
+        ├── pages/
+        │
+        ├── services/
+        │   └── api.js
+        │
+        ├── styles/
+        │
+        ├── routes/
+   
+        ├── hooks/
+
+        ├── context/
+        │
+        ├── App.js
+       └── main.js
+   
+   ├── package.json
+   └── vite.config.js
+
 ├── database/
-│   ├── schema.sql
-│   └── seed.sql
-│
-├── docs/
-│   └── api-docs.md
-│
-├── .gitignore
-├── README.md
-└── docker-compose.yml
+   ├── schema.sql
+   └── seed.sql
+
+|── docs/
+   └── api-docs.md
+
+── .gitignore
+── README.md
+── docker-compose.yml
 
 ----------------------------
 🚀 Como Executar o Projeto
